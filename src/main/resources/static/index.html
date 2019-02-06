@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Welcome to the thunderdome</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p>Create a book <a href="/newBook?id=1">here</a>\n</p>
+
+    name: <input type="text" id="name"><br>
+    adress: <input type="text" id="adress"><br>
+    age: <input type="text" id="age"><br>
+
+<p>Add a buddy <a href="" onclick=this.href="/newBuddy?id=1&name="+document.getElementById('name').value+"&address="+document.getElementById('adress').value+"&age="+document.getElementById('age').value>here</a>\n</p>
+<p>View the book <a href="/viewBuddy?id=1">here</a>\n</p>
+</body>
+</html>
